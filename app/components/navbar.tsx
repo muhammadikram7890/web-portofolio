@@ -15,9 +15,9 @@ export default function Navbar() {
     return(
         <div className="fixed w-full">
             <div className="flex justify-between items-center mt-4 px-6">
-                <div >
+                <div className={`${arimo.className}`}>
                     <ul className="flex space-x-8">
-                        <li className={`${arimo.className}`}>{t.home}</li>
+                        <li>{t.home}</li>
                         <li>{t.about}</li>
                         <li>{t.projects}</li>
                         <li>{t.skills}</li>
